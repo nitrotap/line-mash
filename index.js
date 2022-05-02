@@ -26,8 +26,7 @@ const pHolder = () => {
         and somehow a dog
         has taken itself & its tail considerably away
         into mountains or sea or sky, leaving
-        behind: me, wag.
-        `,
+        behind: me, wag.`,
 
         `You may write me down in history
         With your bitter, twisted lies,
@@ -148,8 +147,7 @@ const pHolder = () => {
         Take your rest.
         Weep not--weep not,
         She is not dead;
-        She's resting in the bosom of Jesus.
-        `
+        She's resting in the bosom of Jesus.`
     ]
 
     let num = getRandom(pArray);
