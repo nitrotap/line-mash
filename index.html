@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Line Mash</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+
+</head>
+
+<body>
+
+    <div>
+        <h1>Poetry Line Masher</h1>
+
+    </div>
+
+    <div>
+        <h2>Instructions:</h2>
+        <h3>Enter your lines, separated by a new line, into the text area.</h3>
+        <div>
+            <textarea id="input" style="width: 100%; height: 250px;">
+
+            </textarea>
+            <button id="button1">
+                Click to randomize!
+            </button>
+            <button id="random-poem">Use a random poem</button>
+        </div>
+    </div>
+
+
+    <div id="output">
+        <h2>Output</h2>
+        <h3 id="output-text">
+        </h3>
+    </div>
+
+
+
+    <div id="input-data">
+        <h2>Input Data</h2>
+        <ol id="input-data-ol">
+        </ol>
+    </div>
+
+    <div>
+        <h2>Output Data</h2>
+        <ol id="output-data-ol"></ol>
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script type="text/javascript" src="line-organizer.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+
+</body>
+
+</html>
