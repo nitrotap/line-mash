@@ -1,5 +1,6 @@
 
 const inputEl = document.querySelector('#input');
+inputEl.textContent = '';
 const outputEl = document.querySelector('#output');
 const inputDataEl = document.querySelector('#input-data');
 const orderedListEl = document.querySelector('#input-data-ol')
@@ -147,7 +148,26 @@ const pHolder = () => {
         Take your rest.
         Weep not--weep not,
         She is not dead;
-        She's resting in the bosom of Jesus.`
+        She's resting in the bosom of Jesus.`,
+
+        `Life is a stream
+        On which we strew
+        Petal by petal the flower of our heart;
+        The end lost in dream,
+        They float past our view,
+        We only watch their glad, early start.
+        Freighted with hope,
+        Crimsoned with joy,
+        We scatter the leaves of our opening rose;
+        Their widening scope,
+        Their distant employ,
+        We never shall know. And the stream as it flows
+        Sweeps them away,
+        Each one is gone
+        Ever beyond into infinite ways.
+        We alone stay
+        While years hurry on,
+        The flower fared forth, though its fragrance still stays.`
     ]
 
     let num = getRandom(pArray);
@@ -218,6 +238,12 @@ randomPoemButtonEl.addEventListener('click', function () {
 })
 
 
+let clearButtonEl = document.querySelector('#clear-input')
+clearButtonEl.addEventListener('click', function () {
+    inputEl.value = '';
+
+
+})
 
 
 
